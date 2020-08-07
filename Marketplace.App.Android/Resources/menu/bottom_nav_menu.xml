@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_productos"
+        android:enabled="true"
+        android:title="Productos"
+        android:icon="@mipmap/icon_products"/>
+    <item
+        android:id="@+id/action_buscar"
+        android:enabled="true"
+        android:title="Buscar"
+        app:showAsAction="ifRoom"
+        android:icon="@mipmap/icon_search"/>
+    <item
+        android:id="@+id/action_promociones"
+        android:enabled="true"
+        android:title="Promociones"
+        app:showAsAction="ifRoom" />
+</menu>

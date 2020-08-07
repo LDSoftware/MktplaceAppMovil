@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+     <item
+        android:id="@+id/action_share" 
+        android:icon="@android:drawable/ic_menu_share"
+        android:visible="false"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@mipmap/icon_heart"
+        android:visible="false"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_show"
+        android:title="Mostrar"
+        android:visible="false"
+        app:showAsAction="ifRoom"/>
+
+</menu>

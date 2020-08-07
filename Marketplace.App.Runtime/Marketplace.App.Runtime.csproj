@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Implementation\" />
+    <Folder Include="Interface\" />
+    <Folder Include="Entities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+    <PackageReference Include="LiteDB" Version="5.0.8" />
+    <PackageReference Include="Marketplace.ApiClient" Version="1.0.17" />
+    <PackageReference Include="Marketplace.Schemas" Version="1.0.20" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
+  </ItemGroup>
+</Project>

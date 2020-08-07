@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marketplace.App.iOS", "Marketplace.App.iOS.csproj", "{07C834B6-A1EA-4021-9320-6C4A5934B143}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07C834B6-A1EA-4021-9320-6C4A5934B143}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{07C834B6-A1EA-4021-9320-6C4A5934B143}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{07C834B6-A1EA-4021-9320-6C4A5934B143}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{07C834B6-A1EA-4021-9320-6C4A5934B143}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{07C834B6-A1EA-4021-9320-6C4A5934B143}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{07C834B6-A1EA-4021-9320-6C4A5934B143}.Debug|iPhone.Build.0 = Debug|iPhone
+		{07C834B6-A1EA-4021-9320-6C4A5934B143}.Release|iPhone.ActiveCfg = Release|iPhone
+		{07C834B6-A1EA-4021-9320-6C4A5934B143}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+EndGlobal
